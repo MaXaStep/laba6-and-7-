@@ -1,0 +1,37 @@
+package Utils;
+
+public enum RequestType {
+    ShowCustomerOrders,
+    OrderReport,
+    SignUp,
+    Login,
+    CreateOperation,
+    ShowOperations,
+    Report,
+    CreateProduct,
+    GetProduct,
+    DeleteProduct,
+    UpdateProduct,
+    ShowProducts,
+    CreateProvider,
+    GetProvider,
+    DeleteProvider,
+    UpdateProvider,
+    ShowProviders,
+    CreateCustomer,
+    GetCustomer,
+    DeleteCustomer,
+    UpdateCustomer,
+    ShowCustomers,
+    CreateOrder,
+    GetOrder,
+    DeleteOrder,
+    UpdateOrder,
+    ShowOrders,
+    CreateUser,
+    GetUser,
+    DeleteUser,
+    UpdateUser,
+    ShowUsers
+}
+

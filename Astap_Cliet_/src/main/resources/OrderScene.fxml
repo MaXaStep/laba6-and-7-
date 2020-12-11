@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="410.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.OrderController">
+   <children>
+      <TableView fx:id="tableview_orders" layoutX="33.0" layoutY="14.0" onMouseClicked="#Clicked" prefHeight="303.0" prefWidth="435.0">
+         <columns>
+            <TableColumn fx:id="column_id" prefWidth="37.0" text="ID" />
+            <TableColumn fx:id="column_status" prefWidth="62.0" text="Статус" />
+            <TableColumn fx:id="column_customer" prefWidth="131.0" text="Заказчик" />
+            <TableColumn fx:id="column_provider" prefWidth="105.0" text="Поставщик" />
+         </columns>
+      </TableView>
+      <Button fx:id="button_add" layoutX="33.0" layoutY="335.0" mnemonicParsing="false" onAction="#Add" text="Добавить" />
+      <Button fx:id="button_delete" disable="true" layoutX="120.0" layoutY="335.0" mnemonicParsing="false" onAction="#Delete" text="Удалить" />
+      <Button fx:id="button_edit" disable="true" layoutX="202.0" layoutY="335.0" mnemonicParsing="false" onAction="#Edit" text="Редактировать" />
+      <Button fx:id="button_back" layoutX="320.0" layoutY="335.0" mnemonicParsing="false" onAction="#Back" text="Назад" />
+   </children>
+</AnchorPane>

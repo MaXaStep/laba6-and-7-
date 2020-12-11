@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="194.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CustomerOrdersController">
+   <children>
+      <ChoiceBox fx:id="choice_report" layoutX="147.0" layoutY="85.0" prefWidth="150.0" />
+      <Label layoutX="45.0" layoutY="89.0" text="Выберите заказ:" />
+      <Button fx:id="button_ok" layoutX="245.0" layoutY="144.0" mnemonicParsing="false" onAction="#Ok_Pressed" text="OK" />
+      <Button fx:id="button_logout" layoutX="169.0" layoutY="144.0" mnemonicParsing="false" onAction="#Back" text="Назад" />
+      <Label fx:id="label_message" layoutX="20.0" layoutY="144.0" text="Номер заказа не выбран!" textFill="RED" visible="false" />
+   </children>
+</AnchorPane>
